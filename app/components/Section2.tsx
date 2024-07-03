@@ -31,7 +31,7 @@ const Section2: React.FC = () => {
       <div className="relative aspect-video  border-t border-b border-l border-border object-cover dark:text-black text-whitew-full md:w-[650px] h-auto">
       <div>
         <Image
-          src="/Section2.png"
+          src="https://ucarecdn.com/d3ef8d35-ec14-4ef8-916e-ad81dc146453/-/preview/755x432/"
           alt="Product Image"
           layout="fill"
           className="p-8 px-10"

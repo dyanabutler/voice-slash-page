@@ -6,7 +6,7 @@ const Section3: React.FC = () => {
     <div className="flex flex-col justify-center dark:text-black text-white md:flex-row">
       <div className="relative aspect-[9/16] dark:text-black text-white border-border border-r w-full md:w-[375px] h-auto">
         <Image
-          src="/mobile.png"
+          src="https://ucarecdn.com/9c6ee463-fc2c-4d75-adaf-4d547159c9d9/-/preview/371x650/"
           alt="Product Image"
           layout="fill"
           className="rounded-md object-cover"
@@ -24,7 +24,7 @@ const Section3: React.FC = () => {
       </div>
       <div className="relative aspect-[9/16] border-border border-l w-full md:w-[375px] h-auto">
         <Image
-          src="/mobile.png"
+          src="https://ucarecdn.com/9c6ee463-fc2c-4d75-adaf-4d547159c9d9/-/preview/371x650/"
           alt="Product Image"
           layout="fill"
           className="rounded-md  object-cover"

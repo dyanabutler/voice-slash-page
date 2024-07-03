@@ -14,8 +14,8 @@ interface Logo {
 }
 
 const logos: Logo[] = [
-  { src: "/passportparking.png", width: 160, height: 40, alt: "Logo 1" },
-  { src: "/zooatlanta.png", width: 100, height: 40, alt: "Logo 2" },
+  { src: "https://ucarecdn.com/9fae6443-c418-4fa4-b7cb-1e393282c788/-/preview/712x353/", width: 160, height: 40, alt: "Logo 1" },
+  { src: "https://ucarecdn.com/17174945-ba31-4db1-95c2-6621837e4327/-/preview/540x462/", width: 100, height: 40, alt: "Logo 2" },
  
 ];
 

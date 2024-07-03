@@ -24,7 +24,7 @@ const Hero: React.FC = () => {
         <div className="max-w-md mx-auto">
           <header className="flex items-center mb-8">
             <Link href="#" className="mr-auto" prefetch={false}>
-              <Image src="/logo2.png" alt="Logo" width={378} height={173} />
+              <Image src="https://ucarecdn.com/c0d10166-5b90-4093-ac49-e3e75071f5ed/-/preview/378x214/" alt="Logo" width={378} height={173} />
             </Link>
           </header>
           <div className="relative dark:text-black text-white mb-8">
@@ -46,7 +46,7 @@ const Hero: React.FC = () => {
       </div>
       <div className="flex-1 bg-transparent p-6 lg:p-12">
         <Image 
-          src="/hero-image.png" 
+          src="https://ucarecdn.com/af336158-cdba-42a1-a39d-2109a0b22101/-/preview/827x749/" 
           alt="Hero Image" 
           width={1200} 
           height={800} 

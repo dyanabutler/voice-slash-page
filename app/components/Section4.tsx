@@ -22,7 +22,7 @@ const Section4: React.FC = () => {
       <div>
         <div>
         <Image
-          src="/Section4.png"
+          src="https://ucarecdn.com/b32f09ef-86ed-4310-860b-3475071931c3/-/preview/808x434/"
           alt="Product Image"
           layout="fill"
           className="p-4 px-10"

@@ -5,7 +5,7 @@ const Reviews: React.FC = () => {
   return (
     <div className="flex flex-col md:flex-row items-center gap-4 p-4 mt-6 rounded-xl bg-black bg-card shadow-sm max-w-xl mx-auto">
       <div className="flex-shrink-0 w-full md:w-1/2">
-        <Image src="/zooatlanta.png" alt="Product Image" width={200} height={200} className="rounded-lg object-fit" />
+        <Image src="https://ucarecdn.com/17174945-ba31-4db1-95c2-6621837e4327/-/preview/540x462/" alt="Product Image" width={200} height={200} className="rounded-lg object-fit" />
       </div>
       <div className="flex-1 space-y-4 text-white">
         <div className="space-y-2">
