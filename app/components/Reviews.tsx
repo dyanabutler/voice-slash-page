@@ -3,33 +3,40 @@ import Image from 'next/image';
 
 const Reviews: React.FC = () => {
   return (
-    <div className="flex flex-col md:flex-row items-center gap-4 p-4 mt-6 rounded-xl bg-black bg-card shadow-sm max-w-xl mx-auto">
-      <div className="flex-shrink-0 w-full md:w-1/2">
-        <Image src="https://ucarecdn.com/17174945-ba31-4db1-95c2-6621837e4327/-/preview/540x462/" alt="Product Image" width={200} height={200} className="rounded-lg object-fit" />
-      </div>
-      <div className="flex-1 space-y-4 text-white">
-        <div className="space-y-2">
-          <h3 className="text-xl font-bold">The Zoo</h3>
-          <p className="text-muted-foreground text-sm">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl nec ultricies lacinia, nisl nisl
-            aliquam nisl, eget aliquam nisl nisl sit amet nisl.
-          </p>
+    <div className="relative mt-16"> {/* Added a relative parent container */}
+     
+      <div className="flex flex-col md:flex-row items-center p-4 mt-6 rounded-sm ring bg-card shadow-sm max-w-xl mx-auto">
+        <div className="flex-shrink-0 w-full md:w-1/2">
+          <Image 
+            src="https://ucarecdn.com/17174945-ba31-4db1-95c2-6621837e4327/-/preview/540x462/" 
+            alt="Product Image" 
+            width={200} 
+            height={200} 
+            className="rounded-lg object-cover" 
+          />
         </div>
-        <div className="flex items-center space-x-2">
-          <div className="flex items-center space-x-1 text-amber-400">
-            <StarIcon className="h-4 w-4" />
-            <StarIcon className="h-4 w-4" />
-            <StarIcon className="h-4 w-4" />
-            <StarIcon className="h-4 w-4" />
-            <StarIcon className="h-4 w-4" />
+        <div className="flex-1 space-y-4 text-white">
+          <div className="space-y-2">
+            <h3 className="text-xl font-bold">The Zoo</h3>
+            <p className="text-muted-foreground text-sm">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl nec ultricies lacinia, nisl nisl
+              aliquam nisl, eget aliquam nisl nisl sit amet nisl.
+            </p>
+          </div>
+          <div className="flex items-center space-x-2">
+            <div className="flex items-center space-x-1 text-amber-400">
+              <StarIcon className="h-4 w-4" />
+              <StarIcon className="h-4 w-4" />
+              <StarIcon className="h-4 w-4" />
+              <StarIcon className="h-4 w-4" />
+              <StarIcon className="h-4 w-4" />
+            </div>
           </div>
         </div>
       </div>
     </div>
   );
 };
-
-export default Reviews;
 
 const StarIcon: React.FC<React.SVGProps<SVGSVGElement>> = (props) => {
   return (
@@ -50,3 +57,5 @@ const StarIcon: React.FC<React.SVGProps<SVGSVGElement>> = (props) => {
     </svg>
   );
 };
+
+export default Reviews;
