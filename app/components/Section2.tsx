@@ -47,7 +47,7 @@ const Section2: React.FC = () => {
             src="https://ucarecdn.com/d3ef8d35-ec14-4ef8-916e-ad81dc146453/-/preview/755x432/"
             alt="Product Image"
             layout="fill"
-            className="p-8 px-10"
+            className="p-8 px-10 hover hover:bg-blue-500"
           />
         </div>
       </div>
