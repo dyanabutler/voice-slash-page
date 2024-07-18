@@ -22,10 +22,10 @@ const Section4: React.FC = () => {
       <div className="flex flex-col justify-center p-4 md:p-6 border-border border-r">
         <div className="space-y-2">
           <h3 className="text-xl dark:text-black text-white font-bold">Actionable & Consolidated Data</h3>
-          <p className="text-muted-foreground dark:text-black text-white">
-            <br />
+          <p className="text-muted-foreground dark:text-black text-white  max-w-lg">
+            
             The Voice Dashboard streamlines accessibility feedback
-            <br />
+            
             offering actionable insights directly from lived patron experiences.
           </p>
         </div>

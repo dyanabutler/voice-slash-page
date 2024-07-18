@@ -50,8 +50,8 @@ const Section5: React.FC = () => {
                   height={200}
                   className="object-contain w-full transition-transform duration-500 group-hover:scale-105"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex items-end p-4 transition-opacity duration-500 group-hover:opacity-0">
-                  <h3 className="text-white font-semibold lg:text-lg text-sm tracking-tight">{image.title}</h3>
+                <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex items-end p-4 transition-opacity duration-500 rounded-xl group-hover:opacity-0">
+                  <h3 className="text-white font-semibold text-base sm:text-lg md:text-xl lg:text-2xl">{image.title}</h3>
                 </div>
               </div>
             </div>

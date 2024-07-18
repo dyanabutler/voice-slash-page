@@ -21,14 +21,14 @@ const Section3: React.FC = () => {
     <div className="common-container flex flex-col justify-center dark:text-black text-white md:flex-row lg:border-border">
       <div className="relative aspect-[9/16] dark:text-black text-white w-full md:w-[375px] h-auto">
         <div
-          onClick={() => handleOpenModal({ src: 'https://ucarecdn.com/9c6ee463-fc2c-4d75-adaf-4d547159c9d9/-/preview/371x650/', title: 'Product Image' })}
+          onClick={() => handleOpenModal({ src: 'https://ucarecdn.com/44c41ac9-60fb-4b19-87ae-bed6081b1a09/-/preview/576x1000/', title: 'Product Image' })}
           className="cursor-pointer group rounded-md overflow-hidden"
         >
           <Image
-            src="https://ucarecdn.com/9c6ee463-fc2c-4d75-adaf-4d547159c9d9/-/preview/371x650/"
+            src="https://ucarecdn.com/44c41ac9-60fb-4b19-87ae-bed6081b1a09/-/preview/576x1000/"
             alt="Product Image"
             layout="fill"
-            className="object-cover group-hover:ring-2 group-hover:ring-blue-500 group-hover:shadow-lg transition-all duration-300"
+            className="object-cover group-hover:ring-blue-500 group-hover:shadow-lg transition-all duration-300"
           />
         </div>
       </div>
@@ -42,14 +42,14 @@ const Section3: React.FC = () => {
       </div>
       <div className="relative aspect-[9/16] lg:border-border lg:border-l w-full md:w-[375px] h-auto">
         <div
-          onClick={() => handleOpenModal({ src: 'https://ucarecdn.com/9c6ee463-fc2c-4d75-adaf-4d547159c9d9/-/preview/371x650/', title: 'Product Image' })}
+          onClick={() => handleOpenModal({ src: 'https://ucarecdn.com/029f598e-bc24-4e83-8344-b3072092c794/-/preview/576x1000/', title: 'Product Image' })}
           className="cursor-pointer group rounded-md overflow-hidden"
         >
           <Image
-            src="https://ucarecdn.com/9c6ee463-fc2c-4d75-adaf-4d547159c9d9/-/preview/371x650/"
+            src="https://ucarecdn.com/029f598e-bc24-4e83-8344-b3072092c794/-/preview/576x1000/"
             alt="Product Image"
             layout="fill"
-            className="object-cover group-hover:ring-2 group-hover:ring-blue-500 group-hover:shadow-lg transition-all duration-300"
+            className="object-cover  group-hover:ring-blue-500 group-hover:shadow-lg transition-all duration-300"
           />
         </div>
       </div>

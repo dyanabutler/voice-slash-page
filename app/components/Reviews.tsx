@@ -1,10 +1,12 @@
 import React from 'react';
 import Image from 'next/image';
+import Partners from './Partners';
 
 const Reviews: React.FC = () => {
   return (
     <div className="relative mt-16">
-      <div className="flex flex-col md:flex-row items-center p-4 mt-6 rounded-sm bg-card shadow-sm max-w-xl mx-auto group hover:ring-2 hover:ring-blue-500 transition-all duration-300">
+      <Partners />
+      {/* <div className="flex flex-col md:flex-row items-center p-4 mt-6 rounded-sm bg-card shadow-sm max-w-xl mx-auto group hover:ring-2 hover:ring-blue-500 transition-all duration-300">
         <div className="flex-shrink-0 w-full md:w-1/2">
           <Image 
             src="https://ucarecdn.com/17174945-ba31-4db1-95c2-6621837e4327/-/preview/540x462/" 
@@ -32,7 +34,7 @@ const Reviews: React.FC = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };
