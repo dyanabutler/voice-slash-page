@@ -51,7 +51,7 @@ const Section5: React.FC = () => {
                   className="object-contain w-full transition-transform duration-500 group-hover:scale-105"
                 />
                 <div className="flex text-center inset-0 ">
-                  <h3 className="text-white font-semibold text-base sm:text-lg md:text-xl lg:text-2xl">{image.title}</h3>
+                  <h3 className="text-[#00A7E0] font-semibold text-base sm:text-lg md:text-xl lg:text-2xl">{image.title}</h3>
                 </div>
               </div>
             </div>
