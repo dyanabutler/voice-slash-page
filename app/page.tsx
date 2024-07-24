@@ -11,9 +11,7 @@ import Section5 from "./components/Section5";
 export default function Home() {
   return (
     <div className="bg-[#141414] dark:bg-[#F0F0F0] w-full min-h-screen relative">
-      
-      
-      <main className="container mx-auto px-4 py-12 md:py-24 lg:py-32 relative z-10">
+      <main className="container mx-auto px-4 py-12 md:py-24 lg:py-32 relative z-10 ">
         <Main />
         <Section2 />
         <Section3 />

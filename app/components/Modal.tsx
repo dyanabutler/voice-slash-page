@@ -36,7 +36,7 @@ const Modal: React.FC<ModalProps> = ({ isOpen, onClose }) => {
           </div>
           <div className="flex items-center justify-center p-4 md:p-5 border-t border-gray-200 rounded-b dark:border-gray-600">
             <CustomButton onClick={onClose}>
-              Close
+              Exit
             </CustomButton>
           </div>
         </div>

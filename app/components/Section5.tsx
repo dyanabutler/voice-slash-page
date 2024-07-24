@@ -36,7 +36,7 @@ const Section5: React.FC = () => {
             className="relative rounded px-5 py-2.5 overflow-hidden group bg-[#00A7E0] hover:bg-gradient-to-r hover:from-blue-300 hover:to-blue-400 text-white hover:ring-2 hover:ring-offset-2 hover:ring-blue-400 transition-all ease-out duration-300"
           >
             <span className="absolute right-0 w-8 h-32 -mt-12 transition-all duration-1000 transform translate-x-12 bg-white opacity-10 rotate-12 group-hover:-translate-x-40 ease"></span>
-            <span className="relative">Contact Us for a Demo</span>
+            <span className="relative text-[24px]">CONTACT US FOR A DEMO</span>
           </button>
         </div>
         <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 lg:gap-4 my-12 mx-8 rounded-xl">
@@ -50,7 +50,7 @@ const Section5: React.FC = () => {
                   height={200}
                   className="object-contain w-full transition-transform duration-500 group-hover:scale-105"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex items-end p-4 transition-opacity duration-500 rounded-xl group-hover:opacity-0">
+                <div className="flex text-center inset-0 ">
                   <h3 className="text-white font-semibold text-base sm:text-lg md:text-xl lg:text-2xl">{image.title}</h3>
                 </div>
               </div>
@@ -58,14 +58,14 @@ const Section5: React.FC = () => {
           ))}
         </div>
       </div>
-      {selectedImage && (
+      {/* {selectedImage && (
         <ImageModal
           src={selectedImage.src}
           alt={selectedImage.title}
           isOpen={isModalOpen}
           onClose={handleCloseModal}
         />
-      )}
+      )} */}
     </section>
   );
 };
