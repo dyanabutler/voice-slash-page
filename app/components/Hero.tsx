@@ -22,12 +22,12 @@ const Hero: React.FC = () => {
       <div className="flex-1 p-6 lg:p-12">
         <div className="max-w-md mx-auto">
           <header className="flex items-center mt-8">
-            <Link href="#" className="mr-auto" prefetch={false}>
-              <Image src="https://ucarecdn.com/c0d10166-5b90-4093-ac49-e3e75071f5ed/-/preview/378x214/" alt="Logo" width={378} height={173} />
+            <Link href="#" className="mr-auto mb-8" prefetch={false}>
+              <Image src="https://ucarecdn.com/aa58cfc6-db9e-4e81-8c8f-26fdfe66de00/-/preview/999x560/" alt="Logo" width={378} height={173} />
             </Link>
           </header>
           <div className="relative mx-4 my-4">
-            <h1 className="text-[36px] font-bold text-white dark:text-black mb-2 text-shadow-lg">
+            <h1 className="text-[36px] font-bold text-white dark:text-black mb-4 text-shadow-lg">
               <span className="bg-gradient-to-r from-blue-400 via-blue-500 to-blue-600 bg-clip-text text-transparent">
                 Every VOICE Matters
               </span>
