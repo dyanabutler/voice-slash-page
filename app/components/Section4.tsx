@@ -21,7 +21,7 @@ const Section4: React.FC = () => {
     <div className="common-container flex flex-col justify-center md:flex-row w-full lg:border-t lg:border-border">
       <div className="flex flex-col justify-center p-4 md:p-6 border-border border-r">
         <div className="space-y-2">
-          <h3 className="text-[36px] dark:text-black text-white font-bold">Actionable & Consolidated Data</h3>
+          <h3 className="text-[36px] dark:text-black text-[#00A7E0] font-bold">Actionable & Consolidated Data</h3>
           <p className="text-muted-foreground dark:text-black text-white text-[20px] max-w-lg">
             
             The Voice Dashboard streamlines accessibility feedback

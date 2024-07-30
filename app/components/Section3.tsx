@@ -34,7 +34,7 @@ const Section3: React.FC = () => {
       </div>
       <div className="w-full md:w-[375px] bg-card p-4 md:p-6 lg:border-border lg:border-l lg:border-r flex flex-col justify-center">
         <div className="space-y-2 m-4">
-          <h3 className="text-[36px] mb-8 font-bold">Capture Valuable Accessibility Insights</h3>
+          <h3 className="text-[36px] mb-8 font-bold text-[#00A7E0]">Capture Valuable Accessibility Insights</h3>
           <p className="text-muted-foreground text-[20px]">
             Capture real-time insights by encouraging individuals to share their accessibility experience, allowing your businesses to make informed and inclusive enhancements to premises and resources.
           </p>
