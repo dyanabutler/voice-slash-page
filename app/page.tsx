@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Hero from "./components/Hero";
-
 import Partners from "./components/Partners";
 import Section2 from "./components/Section2";
 import Section3 from "./components/Section3";
@@ -10,11 +9,13 @@ import Footer from "./components/Footer";
 import Section5 from "./components/Section5";
 import Navbar from "./components/Navbar";
 
-export default function Home() {
+export default async function Home() {
+  // Simulate a data fetching delay
+  await new Promise((resolve) => setTimeout(resolve, 3000));
+
   return (
     <div className="bg-[#141414] dark:bg-[#F0F0F0] w-full min-h-screen relative">
-      <main className="container mx-auto px-4 py-12 md:py-24 lg:py-32 relative z-10 ">
-        
+      <main className="container mx-auto px-4 py-12 md:py-24 lg:py-32 relative z-10">
         <Hero />
         <Section2 />
         <Section3 />

@@ -1,11 +1,9 @@
-
-
 import Image from 'next/image';
 import React from 'react';
 
 export default function Loading() {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-background">
+    <div className="flex min-h-screen items-center justify-center bg-black">
       <div className="flex flex-col items-center space-y-4">
         <div className="animate-spin">
           <LoaderPinwheelIcon className="h-8 w-8 text-primary" />
@@ -14,8 +12,8 @@ export default function Loading() {
           <Image
             src="https://ucarecdn.com/aa58cfc6-db9e-4e81-8c8f-26fdfe66de00/-/preview/999x560/"
             alt="Loading Image"
-            width={999}
-            height={560}
+            width={300}
+            height={150}
             className="rounded-lg"
           />
         </div>
@@ -24,7 +22,7 @@ export default function Loading() {
   );
 }
 
-function LoaderPinwheelIcon(props) {
+function LoaderPinwheelIcon(props: React.SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -33,7 +31,7 @@ function LoaderPinwheelIcon(props) {
       height="24"
       viewBox="0 0 24 24"
       fill="none"
-      stroke="currentColor"
+      stroke="#00A7E0"
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
