@@ -33,7 +33,7 @@ const Section4: React.FC = () => {
       <div className="relative aspect-video object-cover dark:text-black text-white w-full md:w-[650px] h-auto">
         <div onClick={() => handleOpenModal({ src: 'https://ucarecdn.com/b32f09ef-86ed-4310-860b-3475071931c3/-/preview/808x434/', title: 'Product Image' })} className="cursor-pointer">
           <Image
-            src="https://ucarecdn.com/b32f09ef-86ed-4310-860b-3475071931c3/-/preview/808x434/"
+            src="https://ucarecdn.com/e5910d0c-206e-4df7-9be6-7cb685626933/-/preview/1000x589/"
             alt="Product Image"
             layout="fill"
             className="p-8 px-10"
