@@ -1,19 +1,22 @@
 import { Suspense } from 'react';
-import Hero from "./components/Hero";
-import Section2 from "./components/Section2";
-import Section3 from "./components/Section3";
-import Section4 from "./components/Section4";
-import Reviews from "./components/Reviews";
-import Footer from "./components/Footer";
-import Section5 from "./components/Section5";
-import Navbar from "./components/Navbar";
-import Loading from './loading';
 
-// export default async function Home() {
-//   // Simulate a data fetching delay
-//   await new Promise((resolve) => setTimeout(resolve, 3000));
+import Loading from './loading';
+import React from 'react';
+const Hero = React.lazy(() => import('./components/Hero'));
+const Partners = React.lazy(() => import('./components/Partners'));
+const Section2 = React.lazy(() => import('./components/Section2'));
+const Section3 = React.lazy(() => import('./components/Section3'));
+const Section4 = React.lazy(() => import('./components/Section4'));
+const Reviews = React.lazy(() => import('./components/Reviews'));
+const Footer = React.lazy(() => import('./components/Footer'));
+const Section5 = React.lazy(() => import('./components/Section5'));
+const Navbar = React.lazy(() => import('./components/Navbar'));
+
+
+
   
-  export default function Home() {
+  export default async function Home() {
+    await new Promise((resolve) => setTimeout(resolve, 1500));
     return (
       <div className="bg-[#141414] dark:bg-[#F0F0F0] w-full min-h-screen relative">
         <main className="container mx-auto px-4 py-12 md:py-24 lg:py-32 relative z-10 ">
