@@ -37,6 +37,7 @@ export default function Partners() {
                 height={logo.height}
                 alt={logo.alt}
                 className="aspect-[2/1] w-full max-w-full overflow-hidden rounded-lg object-contain object-center "
+                
               />
             </div>
           ))}

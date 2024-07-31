@@ -8,6 +8,7 @@ import CustomButton from './CustomButton';
 
 const Hero: React.FC = () => {
   const [isModalOpen, setModalOpen] = useState(false);
+  const [imageLoaded, setImageLoaded] = useState(false);
 
   const handleOpenModal = () => {
     setModalOpen(true);
@@ -17,13 +18,24 @@ const Hero: React.FC = () => {
     setModalOpen(false);
   };
 
+  const handleImageLoad = () => {
+    setImageLoaded(true);
+  };
+
   return (
     <div className="flex flex-col lg:flex-row">
       <div className="flex-1 p-6 lg:p-12">
         <div className="max-w-md mx-auto">
           <header className="flex items-center mt-8">
-            <Link href="#" className="mr-auto mb-8" prefetch={false}>
-              <Image src="https://ucarecdn.com/aa58cfc6-db9e-4e81-8c8f-26fdfe66de00/-/preview/999x560/" alt="Logo" width={378} height={173} />
+            <Link href="#" className="mr-auto mb-8">
+              <Image 
+                src="https://ucarecdn.com/aa58cfc6-db9e-4e81-8c8f-26fdfe66de00/-/preview/999x560/" 
+                alt="Logo" 
+                width={378} 
+                height={173} 
+                className={`transition-opacity duration-1000 ${imageLoaded ? 'opacity-100' : 'opacity-0'}`}
+                onLoadingComplete={() => setImageLoaded(true)}
+              />
             </Link>
           </header>
           <div className="relative mx-4 my-4">
@@ -56,7 +68,8 @@ const Hero: React.FC = () => {
           alt="Hero Image" 
           width={1000} 
           height={500} 
-          className="w-full h-full object-contain"
+          className={`transition-opacity duration-1000 ${imageLoaded ? 'opacity-100' : 'opacity-0'}`}
+          onLoad={() => setImageLoaded(true)}
         />
       </div>
       <Modal isOpen={isModalOpen} onClose={handleCloseModal} />

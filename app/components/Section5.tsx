@@ -39,7 +39,7 @@ const Section5: React.FC = () => {
             <span className="relative text-[24px]">CONTACT US FOR A DEMO</span>
           </button>
         </div>
-        <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 lg:gap-4 my-24 mx-8 rounded-xl ">
+        <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 lg:gap-4 my-8 mx-8 rounded-xl ">
           {images.map((image, index) => (
             <div key={index} className="relative group">
               <div onClick={() => handleOpenModal(image)} className="cursor-pointer">
