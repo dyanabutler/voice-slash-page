@@ -35,7 +35,7 @@ export default function Home() {
         <Loading />
         </div>
       ) : (
-        <main className="container mx-auto px-4 py-12 md:py-24 lg:py-32 relative z-10">
+        <main className="container mx-auto px-4 py-12 md:py-24 lg:py-32 relative z-10 animate-fade-in">
           <Suspense fallback={<Loading />}>
             <Hero />
             <Section2 />
