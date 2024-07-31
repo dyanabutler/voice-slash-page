@@ -1,29 +1,6 @@
+// loading.tsx
 import Image from 'next/image';
 import React from 'react';
-
- function Loading() {
-  console.log('Loading component rendered');
-  return (
-    <div className="flex min-h-screen items-center justify-center bg-black">
-      <div className="flex flex-col items-center space-y-4">
-        <div className="animate-spin">
-          <LoaderPinwheelIcon className="h-8 w-8 text-primary" />
-        </div>
-        <div className="animate-fade-in">
-          <Image
-            src="https://ucarecdn.com/aa58cfc6-db9e-4e81-8c8f-26fdfe66de00/-/preview/999x560/"
-            alt="Loading Image"
-            width={300}
-            height={150}
-            className="rounded-lg"
-          />
-        </div>
-      </div>
-    </div>
-  );
-}
-
-export default Loading;
 
 function LoaderPinwheelIcon(props: React.SVGProps<SVGSVGElement>) {
   return (
@@ -46,3 +23,27 @@ function LoaderPinwheelIcon(props: React.SVGProps<SVGSVGElement>) {
     </svg>
   );
 }
+
+function Loading() {
+  console.log('Loading component rendered');
+  return (
+    <div className="flex min-h-screen items-center justify-center bg-transparent">
+      <div className="flex flex-col items-center space-y-4">
+        <div className="animate-spin">
+          <LoaderPinwheelIcon className="h-8 w-8 text-primary" />
+        </div>
+        <div className="animate-fade-in">
+          <Image
+            src="https://ucarecdn.com/aa58cfc6-db9e-4e81-8c8f-26fdfe66de00/-/preview/999x560/"
+            alt="Loading Image"
+            width={300}
+            height={150}
+            className="rounded-lg"
+          />
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export default Loading;
