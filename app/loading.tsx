@@ -27,7 +27,7 @@ function LoaderPinwheelIcon(props: React.SVGProps<SVGSVGElement>) {
 function Loading() {
   console.log('Loading component rendered');
   return (
-    <div className="flex min-h-screen items-center justify-center bg-transparent">
+    <div className="flex py-48 items-center justify-center bg-transparent">
       <div className="flex flex-col items-center space-y-4">
         <div className="animate-spin">
           <LoaderPinwheelIcon className="h-8 w-8 text-primary" />

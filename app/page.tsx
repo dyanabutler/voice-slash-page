@@ -2,7 +2,7 @@
 import { Suspense } from 'react';
 import React from 'react';
 import Loading from './loading';
-import useImageLoader from './hooks/useImageLoader'; // Adjust the import path
+import useImageLoader from './hooks/useImageLoader'; 
 
 const Hero = React.lazy(() => import('./components/Hero'));
 const Partners = React.lazy(() => import('./components/Partners'));
@@ -29,9 +29,11 @@ export default function Home() {
   const imagesLoaded = useImageLoader(images);
 
   return (
-    <div className="bg-[#141414] dark:bg-[#F0F0F0] w-full min-h-screen relative">
+    <div className="bg-[#141414] w-full min-h-screen relative">
       {!imagesLoaded ? (
+        <div className='mx-auto px-4 py-12 md:py-24 lg:py-32'>
         <Loading />
+        </div>
       ) : (
         <main className="container mx-auto px-4 py-12 md:py-24 lg:py-32 relative z-10">
           <Suspense fallback={<Loading />}>

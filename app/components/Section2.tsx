@@ -41,7 +41,7 @@ const Section2: React.FC = () => {
             src="https://ucarecdn.com/1f27e385-9f0a-4114-8be6-2e160a8b383d/-/preview/1000x541/"
             alt="Product Image"
             layout="fill"
-            className="p-8 px-10 "
+            className="p-8 px-10"
           />
         </div>
       </div>

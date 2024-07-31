@@ -49,7 +49,7 @@ const Section3: React.FC = () => {
             src="https://ucarecdn.com/029f598e-bc24-4e83-8344-b3072092c794/-/preview/576x1000/"
             alt="Product Image"
             layout="fill"
-            className="object-cover  group-hover:ring-blue-500 group-hover:shadow-lg transition-all duration-300"
+            className="object-cover group-hover:ring-blue-500 group-hover:shadow-lg transition-all duration-300"
           />
         </div>
       </div>
