@@ -2,10 +2,10 @@ import React from 'react';
 
 const EmailEmbed: React.FC = () => {
   return (
-    <div className="flex justify-center items-center py-8 w-auto">
+    <div className="flex justify-center items-center py-8">
       <iframe
         src="https://cdn.forms-content.sg-form.com/e533faf8-2998-11ef-859e-2e87a1a0144c"
-        className="w-full  h-full border-none rounded-md"
+        className="w-full md:w-1/2 h-96 border-none"
       />
     </div>
   );
