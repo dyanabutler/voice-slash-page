@@ -1,7 +1,8 @@
 import Image from 'next/image';
 import React from 'react';
 
-export default function Loading() {
+ function Loading() {
+  console.log('Loading component rendered');
   return (
     <div className="flex min-h-screen items-center justify-center bg-black">
       <div className="flex flex-col items-center space-y-4">
@@ -21,6 +22,8 @@ export default function Loading() {
     </div>
   );
 }
+
+export default Loading;
 
 function LoaderPinwheelIcon(props: React.SVGProps<SVGSVGElement>) {
   return (

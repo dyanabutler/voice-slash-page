@@ -50,7 +50,7 @@ const Section5: React.FC = () => {
                   height={200}
                   className="object-contain w-full mb-4 transition-transform duration-500 group-hover:scale-105"
                 />
-                <div className="flex text-center inset-0 ">
+                <div className="flex text-center justify-center items-center inset-0 ">
                   <h3 className="text-white text-center font-semibold text-base sm:text-lg md:text-xl lg:text-2xl">{image.title}</h3>
                 </div>
               </div>
